@@ -24,6 +24,10 @@ public class EditorScriptExample : EditorWindow
         {
             EditorGUILayout.BeginHorizontal();
             GUILayout.Label(scriptableObject.objectNames[i]);
+            if (GUILayout.Button("VALIDATE", GUILayout.Width(100)))
+            {
+
+            }
             EditorGUILayout.EndHorizontal();
         }
     }
